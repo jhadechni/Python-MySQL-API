@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API</title>
+</head>
+<body>
+    <h1>
+        Agregar Nuevo Candidato
+    </h1>
+    <form action="/api/newCandidato" method="post">
+        <label for="name_candidato" >Nombre del candidato</label><br>
+        <input type="text" id="name_candidato" name="name_candidato" placeholder="Ingrese el nombre"></input><br>
+
+        <label for="partido" >Partido</label><br>
+        <input type="text" id="partido" name="partido" placeholder="Ingrese el partido"></input><br>
+
+        <label for="localidad_candidato" >Localidad</label><br>
+        <input type="text" id="localidad_candidato" name="localidad_candidato" placeholder="Ingrese la localidad"></input><br>
+
+      
+        <input type = "submit" value="Crear Candidato"></input>
+    </form>
+</body>
+
+</html>

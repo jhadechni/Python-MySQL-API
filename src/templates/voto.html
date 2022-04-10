@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API</title>
+</head>
+<body>
+    <h1>
+        Nuevo voto
+    </h1>
+    <form action="/api/votar" method="post">
+        <label for="votante_id" >Votante (ID)</label><br>
+        <input type="text" id="votante_id" name="votante_id" placeholder="id"></input><br>
+
+        <label for="candidato_id" >Candidato (ID)</label><br>
+        <input type="text" id="candidato_id" name="candidato_id" placeholder="id"></input><br>
+      
+        <input type = "submit" value="Votar"></input>
+    </form>
+</body>
+
+</html>

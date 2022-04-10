@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API</title>
+</head>
+<body>
+    <h1>
+        Agregar Nuevo Votante
+    </h1>
+    <form action="/api/newVotante" method="post">
+        <label for="name_votante" >Nombre del votante</label><br>
+        <input type="text" id="name_votante" name="name_votante" placeholder="Ingrese el nombre"></input><br>
+
+        <label for="apellidos_votante" >Apellidos del Votante</label><br>
+        <input type="text" id="apellidos_votante" name="apellidos_votante" placeholder="Ingrese los apellidos"></input><br>
+
+        <label for="tipo_documento" >Tipo del documento</label><br>
+        <input type="text" id="tipo_documento" name="tipo_documento" placeholder="Ingrese el tipo de documento"></input><br>
+
+        <label for="num_documento" >Numero del documento</label><br>
+        <input type="text" id="num_documento" name="num_documento" placeholder="Ingrese el numero de documento"></input><br>
+
+        <label for="localidad_votante" >Localidad</label><br>
+        <input type="text" id="localidad_votante" name="localidad_votante" placeholder="Ingrese la Localidad"></input><br>
+
+        <input type = "submit" value="Crear votante"></input>
+    </form>
+</body>
+
+</html>
+
